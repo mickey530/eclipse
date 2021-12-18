@@ -1,0 +1,26 @@
+package interaction;
+
+public class Buyer {
+
+	private int money;
+	private int mango;
+	
+	public Buyer(int money) {
+		this.money = money;
+		this.mango = 0;
+	}
+	
+	public void buyMango(Seller seller, int mangoCount) {
+		if(seller.getMango() >= mangoCount) {
+			if(this.money >= 1000 * mangoCount) {	
+				seller.sellMango(mangoCount);
+				this.money -= 1000 * mangoCount;
+				this.mango += mangoCount;
+				System.out.println("망고 " + mangoCount + "개, " + 1000 * mangoCount + "원 입니다.");
+				System.out.println("현재 잔액 : " + this.money + "원");
+		}
+		} else {
+			System.out.println("잔액이 부족합니다.");
+		}
+	}
+}

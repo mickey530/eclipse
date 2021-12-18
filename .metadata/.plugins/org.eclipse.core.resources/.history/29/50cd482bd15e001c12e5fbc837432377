@@ -1,0 +1,21 @@
+package interaction;
+
+public class Seller {
+
+	private int money;
+	private int redPotion;
+	private int bluePotion;
+	
+	public Seller(int redPtion, int BluePotion) {
+		this.redPotion = redPtion;
+		this.bluePotion = bluePotion;
+	}
+	
+	public void sellPotion(int r, int b) {
+		System.out.println("빨간포션 " + r + "개 파란포션 " + b + "개 총합 " + (r+b)*1000 + "원 입니다." );
+		if(this.redPotion >= r && this.bluePotion >= b) { // 갯수가 충분하다면
+			this.redPotion -= r;
+			this.bluePotion -= b;
+		}
+	}
+}

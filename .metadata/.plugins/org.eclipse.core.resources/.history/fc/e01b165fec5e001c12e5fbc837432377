@@ -1,0 +1,10 @@
+package polymorphism;
+
+public class Main03P302 {
+
+	// 개발자 생성 및 정보조회, Person으로 개발자를 받음
+	
+	Person c1 = new Coder("김코", 25, "java");
+	
+	c1.showPerson();
+}

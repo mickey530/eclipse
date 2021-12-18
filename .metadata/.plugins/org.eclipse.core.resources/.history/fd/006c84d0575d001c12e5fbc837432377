@@ -1,0 +1,8 @@
+package game.inheritance;
+
+public class Magician extends Commoner{
+
+	private int mDam;
+	
+	public Magicain("나는법사")
+}

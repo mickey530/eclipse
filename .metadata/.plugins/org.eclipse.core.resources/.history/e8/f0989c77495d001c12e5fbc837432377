@@ -1,0 +1,8 @@
+package game.inheritance;
+
+public class Warrior extends Commoner{
+
+	private int pDam;
+	
+	super("무야자키 무야호");
+}

@@ -1,0 +1,6 @@
+package overrding;
+
+public class Dog extends Animal{
+
+	public String size;
+}

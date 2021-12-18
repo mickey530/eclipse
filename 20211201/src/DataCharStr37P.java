@@ -1,0 +1,19 @@
+
+public class DataCharStr37P {
+	
+
+	public static void main(String[] args) {
+		// 문자 자료형은 크게 두가지로
+		// 단일 문자인 char('문자')
+		// 문자 배열인 String("문자열...")
+		// 이 존재하며 보통은 String만 사용
+		
+		char a = 'a';
+		String b = "문자열 입니다.";
+//		char c = "문자"; // 문자열과 단일문자
+//		String d = 'd'; // 서로 다른 자료형으로 간주
+		System.out.println(a);
+		System.out.println(b);
+		
+	}
+}

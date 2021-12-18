@@ -1,0 +1,15 @@
+package overrding;
+
+public class Main01P265 {
+
+	public static void main(String[] args) {
+		
+		// 고양이, 강아지 생성.
+		Dog d1 = new Dog();
+		d1.howl();
+		d1.getInfo"랑이", true, "랑이네 집");
+		
+		Cat c1 = new Cat();
+		c1.howl();
+	}
+}

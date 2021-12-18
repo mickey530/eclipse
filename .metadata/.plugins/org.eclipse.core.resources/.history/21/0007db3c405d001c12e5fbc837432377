@@ -1,0 +1,23 @@
+package game.inheritance;
+
+public class Commoner {
+
+	private String id;
+	private int lv;
+	private int hp;
+	private int mp;
+
+	public Commoner(String id) {
+		this.id = id;
+		this.lv = 1;
+		this.hp = 20;
+		this.mp = 10;
+	}
+	public void getInfo() {
+		System.out.println("---- 스텟창 ----");
+		System.out.println("아이디 : " + id);
+		System.out.println("LV : " + lv);
+		System.out.println("HP : " + hp);
+		System.out.println("MP : " + mp);
+	}
+}

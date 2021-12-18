@@ -1,0 +1,10 @@
+package polymorphism;
+
+public class PetCakeCooker {
+
+	private String ingre;
+	
+	public PetCakeCooker(String name, int age, String ingre) {
+		
+	}
+}

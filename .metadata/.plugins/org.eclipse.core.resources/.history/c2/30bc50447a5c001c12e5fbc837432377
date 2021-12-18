@@ -1,0 +1,6 @@
+package overrding;
+
+public class Cat extends Animal{
+
+	public String color;
+}

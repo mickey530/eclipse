@@ -1,0 +1,22 @@
+package game.accessmodifier;
+
+public class Magician extends Commoner {
+
+	public void hunt() {
+		System.out.println("마법사가 사냥을 시작합니다.");
+		// hp -= 2; 를 직접 실행할 수 없으므로 private
+		// public인 setter의 setHp를 이용한다.
+		// setHp(5) 인 경우, 기존의 값 대신 hp변수에 5로 교체해달라는 요청임.
+		// but 현재 원하는 것은, 현 hp값에서 사냥할 때마다 체력이 2씩 깎이는 것.
+		setHp(-2);
+		// 경험치도 마찬가지로 setExp()
+		setExp(10);
+		
+	}
+	
+	public void getInfo() {
+		// 심지어 private 요소는 수정이 아닌 조회도 불가능
+		System.out.println("현재 체력 : " + getHp());
+	}
+	
+}

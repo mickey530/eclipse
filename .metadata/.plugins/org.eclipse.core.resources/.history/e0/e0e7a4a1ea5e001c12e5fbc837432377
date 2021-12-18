@@ -1,0 +1,9 @@
+package polymorphism;
+
+public class Coder extends Person{
+
+	public Coder(String name, int age, String lan) {
+		super(name, age);
+		System.out.println("이름 : " + name + ", 나이 : " + age + ", 언어 : " + lan);
+	}
+}

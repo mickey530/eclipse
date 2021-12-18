@@ -1,0 +1,44 @@
+package game.interaction;
+
+public class Troll {
+
+	public int hp;
+	public int atk;
+	public int def;
+	
+	public Troll() {
+		this.hp = 8;
+		this.atk = 4;
+		this.def = 1;
+		System.out.println("트롤이 생성되었습니다.");
+	}
+		
+	public void doBattle(int uAtk) {
+		hp = hp + def - uAtk;
+		System.out.println("트롤의 남은 체력 : " + hp);
+	}
+
+	public int getHp() {
+		return hp;
+	}
+
+	public void setHp(int hp) {
+		this.hp = hp;
+	}
+
+	public int getAtk() {
+		return atk;
+	}
+
+	public void setAtk(int atk) {
+		this.atk = atk;
+	}
+
+	public int getDef() {
+		return def;
+	}
+
+	public void setDef(int def) {
+		this.def = def;
+	}
+}

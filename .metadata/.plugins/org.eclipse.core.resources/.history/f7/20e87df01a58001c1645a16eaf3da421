@@ -1,0 +1,31 @@
+package structure;
+
+import java.util.Scanner;
+
+public class Practice {
+
+	public static void main(String[] args) {
+	
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("아이디를 입력해주세요.");
+		String id = scan.next();
+		
+		if(id == "야호예정") {
+			System.out.println("패스워드를 입력해주세요.");
+			String pw = scan.next();
+			if(pw == "1234") {
+				System.out.println("와일드리프트에 오신 것을 환영합니다.");
+			}
+			else {
+				System.out.println("잘못된 정보입니다.");
+			}
+		} else {
+			System.out.println("패스워드를 입력해주세요.");
+			String pw = scan.next();
+			System.out.println("잘못된 정보입니다.");
+		}
+	}
+	
+}
+ 

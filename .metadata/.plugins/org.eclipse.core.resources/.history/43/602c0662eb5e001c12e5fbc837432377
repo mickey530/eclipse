@@ -1,0 +1,12 @@
+package polymorphism;
+
+public class Soldier extends Person{
+	
+	private String c;
+
+	public Soldier(String name, int age, String c) {
+		super(name, age);
+		System.out.println("이름 : " + name + ", 나이 : " + age + ", 계급 : " + this.c);
+	}
+}
+ 
