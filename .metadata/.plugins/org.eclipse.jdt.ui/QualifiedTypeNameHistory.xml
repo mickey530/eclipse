@@ -5,4 +5,25 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="inheritance.Student"/>
     <fullyQualifiedTypeName name="inheritance.Salaryman"/>
+    <fullyQualifiedTypeName name="overrding.Dog"/>
+    <fullyQualifiedTypeName name="overloading.PartTimer"/>
+    <fullyQualifiedTypeName name="thiskeyword.Person"/>
+    <fullyQualifiedTypeName name="superclass.SuperSonicAirplane"/>
+    <fullyQualifiedTypeName name="superclass.Airplane"/>
+    <fullyQualifiedTypeName name="game.inheritance.Commoner"/>
+    <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
+    <fullyQualifiedTypeName name="game.inheritance.Warrior"/>
+    <fullyQualifiedTypeName name="game.inheritance.Magician"/>
+    <fullyQualifiedTypeName name="game.inheritance.Archer"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="game.accessmodifier.Warrior"/>
+    <fullyQualifiedTypeName name="game.interaction.Warrior"/>
+    <fullyQualifiedTypeName name="polymorphism.PetCakeCooker"/>
+    <fullyQualifiedTypeName name="game.polymorphism.Commoner"/>
+    <fullyQualifiedTypeName name="casting.Cat"/>
+    <fullyQualifiedTypeName name="static2.Asean"/>
+    <fullyQualifiedTypeName name="Airplane"/>
+    <fullyQualifiedTypeName name="interface1.Car"/>
+    <fullyQualifiedTypeName name="interface1.Vehicle"/>
+    <fullyQualifiedTypeName name="interface1.Airplane"/>
 </qualifiedTypeNameHistroy>
